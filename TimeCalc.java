@@ -18,7 +18,7 @@ public class TimeCalc {
     } 
     System.out.print(finalhour);
     System.out.print(":");
-    if (finalmin < 0) {
+    if (finalmin < 10) {
     System.out.print("0");    
     }
     System.out.println(finalmin);
