@@ -41,9 +41,6 @@ public static void main(String args[]) {
 
 	i++;
 }
-if (mode.equals("v")) { 
-System.out.println();
-}
 if (mode.equals("c") || mode.equals("v")) {
 System.out.println("Every one of the first " + n + " hailstone sequences reached 1." );
 }
