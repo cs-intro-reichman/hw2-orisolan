@@ -13,7 +13,7 @@ while (i < n) {
 	i++;
 }
 double finalpi = approx * 4.0;
-System.out.println("pi according to java: " + Math.PI);
+System.out.println("pi according to Java: " + Math.PI);
 System.out.println("pi, approximated:     " + finalpi);
 }
 }
